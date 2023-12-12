@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- My sctipt -->
+  <script src="./script/index.js" defer></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./style/style.css">
+
+  <title>To Do App</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="tasks">
+      <!-- create a template to use with JavScript -->
+      <template id="taskTemplate">
+        <div class="task">
+          <input type="checkbox" class="item-done" name="mark-done">
+          <input name="todo-content" type="text" class="item-content" placeholder="To Do">
+        </div>
+      </template>
+    </div>
+    <button id="add">Add Task</button>
+  </div>
+</body>
+
+</html>
